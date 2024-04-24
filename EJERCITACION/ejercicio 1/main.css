@@ -3,10 +3,10 @@
   display: flex;
   justify-content: center;
 }  
-  .elemento {
-    border: 1px solid black;
-    padding: 10px;
-    margin: 5px;
+.elemento {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
   }
 
 .alineamiento{
@@ -17,6 +17,36 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: auto;
   grid-gap: 10px;
+  text-align: center;
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+.tarjeta{
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+.tarjeta2{
+  background-color: bisque;
+  border-radius: 20px;
+}
+
+.tarjeta3{
+  background-color: blueviolet;
+  border-radius: 20px;
+}
+
+.letra{
+  font-family: sans-serif;
+}
+
+.centrar-pagina{
+  display: flex;
+  justify-content: center;
 }
