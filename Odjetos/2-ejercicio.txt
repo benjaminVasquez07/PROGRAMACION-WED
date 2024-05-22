@@ -1,0 +1,15 @@
+Respuesta 1:
+
+Lo que se imprimira en la consola son los parametros weight y height
+
+Se va a mostrar por pantalla 70 y 180 porque son los valores que le estamos asignando
+a weight y height
+
+Respuesta 2:
+
+No se imprimira nada porque contiene un error, ya que "age" no esta definido 
+por que se le cambia el nombre a "person"
+
+Respuesta 3:
+
+El atajo que nos permite son las propiedades 
