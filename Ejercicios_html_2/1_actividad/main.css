@@ -1,0 +1,14 @@
+.titulo {
+    color: #1d3a5a;
+    font-family: 'Arial Black', sans-serif;
+}
+
+
+.imagen {
+    border-radius: 50%;
+    border: 4px solid #1d242b;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}

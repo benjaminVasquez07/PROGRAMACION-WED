@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bordes {
+    border: solid 0.5px black;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.centrar{
+    text-align: center;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
