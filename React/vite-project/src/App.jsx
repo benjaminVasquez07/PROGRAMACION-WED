@@ -1,10 +1,10 @@
 import { Prueba } from "./components/prueba";
+import { Morty } from "./components/rickymorty";
 
 function App() {
   return (
     <>
-      <Prueba nombre={"Benjamin"} Apellido={"Vasquez"} />
-      Hola Ronaldo
+      <Morty />
     </>
   );
 }

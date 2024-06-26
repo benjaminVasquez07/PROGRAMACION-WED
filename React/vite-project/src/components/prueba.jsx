@@ -13,7 +13,7 @@ export function Prueba({ nombre, Apellido }) {
 
       {products.map((producto, i) => {
         return (
-          <div key={producto.id}>
+          <div key={producto.id} className="">
             <h2>title: {producto.title}</h2>
             <p>{producto.description}</p>
           </div>
