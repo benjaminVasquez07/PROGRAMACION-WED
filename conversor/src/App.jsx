@@ -31,7 +31,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h2>Currency Converter</h2>
       <div>
         <label>From: </label>
