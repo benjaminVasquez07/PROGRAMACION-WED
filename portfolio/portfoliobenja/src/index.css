@@ -64,3 +64,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/*-------------------------------------------------*/
+
+/* Estilo para el contenedor principal de la aplicación */
+.App {
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el encabezado de la aplicación */
+.App-header {
+  background-color: #282c34; /* Color de fondo del encabezado */
+  min-height: 100vh; /* Altura mínima del encabezado igual a la altura total de la ventana del navegador */
+  display: flex; /* Utiliza el diseño Flexbox para los elementos hijos */
+  flex-direction: column; /* Alinea los elementos hijos en una columna */
+  align-items: center; /* Centra los elementos hijos horizontalmente */
+  justify-content: center; /* Centra los elementos hijos verticalmente */
+  color: white; /* Color del texto dentro del encabezado */
+}
+
+/* Estilo para los enlaces dentro del encabezado */
+.App-header a {
+  color: #61dafb; /* Color del texto de los enlaces */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo general para las secciones */
+section {
+  padding: 20px; /* Espacio interno alrededor del contenido de la sección */
+  margin: 20px; /* Espacio exterior alrededor de la sección */
+}
+
+/* Estilo para el pie de página */
+footer {
+  padding: 10px; /* Espacio interno alrededor del contenido del pie de página */
+  background-color: #282c34; /* Color de fondo del pie de página */
+  color: white; /* Color del texto en el pie de página */
+}
+
+/* Estilo para los contenedores de proyectos, experiencia y educación */
+.project,
+.experience,
+.education {
+  margin-bottom: 20px; /* Espacio inferior después de cada contenedor */
+}
