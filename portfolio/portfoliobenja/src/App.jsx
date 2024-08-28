@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Benjamin Vasquez</h1>
-        <p>Título Profesional</p>
+      <header className="encabezado">
+        <h1>Portfolio</h1>
+        <p>Benjamin Vasquez</p>
         <nav>
           <ul>
             <li>
@@ -35,7 +35,9 @@ function App() {
         <h2>Sobre mí</h2>
         <p>
           Estudio en la secundaria tecnica de la UBA, estoy en 5D en la
-          especializacion de TIC(Tecnología de la informacion y comunicacion)
+          especializacion de TIC (Tecnología de la informacion y comunicacion). 
+          Me gusta jugar basket y futbol, mi quipo favorito es el Real Madrid, mi jugador favorito de 
+          futbol es Bellingham y de basket Stephen Curry. Me gusta armar cubos rubik y rompecabezas.
         </p>
       </section>
       <section id="projects">
@@ -45,7 +47,7 @@ function App() {
           <p>Descripción breve del proyecto.</p>
           <p>Tecnologías utilizadas: React, Node.js, etc.</p>
           <a
-            href="https://enlace-al-proyecto.com"
+            href="http://127.0.0.1:5500/Ejercicios_html_2/2_activida/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -64,7 +66,7 @@ function App() {
       <section id="experience">
         <h2>Experiencia</h2>
         <div className="experience">
-          <h3>Puesto en la Empresa 1</h3>
+          <h3>Puesto en la Empresa 1  </h3>
           <p>Descripción de las responsabilidades y logros.</p>
           <p>Fechas: Enero 2020 - Presente</p>
         </div>
